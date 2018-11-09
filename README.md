@@ -1,14 +1,13 @@
 #Rect-Router with Sass & css-module, classNames
-<code>
-    yarn add react-router-dom
+```yarn add react-router-dom
 
-    yarn add node-sass classnames
-</code>
+   yarn add node-sass classnames
+```
 
 ###Router, Link, NavLink(feat.activeclassName)
 index.js
-```
-    import { BrowserRouter } from 'react-router-dom';
+
+```import { BrowserRouter } from 'react-router-dom';
     
     
 
@@ -22,8 +21,7 @@ index.js
 
 App.js
 
-```
-   import { Router, Link }  from 'react-router-dom';
+```import { Router, Link }  from 'react-router-dom';
 
    
 
@@ -46,8 +44,7 @@ App.js
 
 /Pages/About.js
 
-```
-    rsc
+```rsc
 
     ({match})
 
