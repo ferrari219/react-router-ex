@@ -23,7 +23,6 @@ index.js
 App.js
 
 <code>
-
    import { Router, Link }  from 'react-router-dom';
 
    ..
@@ -48,7 +47,6 @@ App.js
 /Pages/About.js
 
 <code>
-
     rsc
 
     ({match})
