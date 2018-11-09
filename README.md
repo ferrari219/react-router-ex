@@ -7,8 +7,6 @@
 ###Router, Link, NavLink(feat.activeclassName)
 index.js
 ```import { BrowserRouter } from 'react-router-dom';
-    
-    
 
     <BrowserRouter>
     
@@ -21,7 +19,6 @@ index.js
 App.js
 ```import { Router, Link }  from 'react-router-dom';
 
-   
 
    <Link to='/' exact>Home</Link>
    
