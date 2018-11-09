@@ -1,9 +1,9 @@
 #Rect-Router with Sass & css-module, classNames
-<pre>
+<code>
     yarn add react-router-dom
 
     yarn add node-sass classnames
-</pre>
+</code>
 
 ###Router, Link, NavLink(feat.activeclassName)
 index.js
@@ -20,7 +20,7 @@ index.js
 </code>
 
 App.js
-<pre>
+<code>
    import { Router, Link }  from 'react-router-dom';
 
    ...
@@ -36,14 +36,14 @@ App.js
    
    <Router path='/' component={Home}/>
    <Router path='/about/:name' component={About}/>
-</pre>
+</code>
 
 /Pages/About.js
-<pre>
+<code>
     rsc
 
     ({match})
 
     ...
     {match.params.name}
-</pre>
+</code>
