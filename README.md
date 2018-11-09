@@ -7,7 +7,7 @@
 
 ###Router, Link, NavLink(feat.activeclassName)
 index.js
-<pre>
+<code>
     import { BrowserRouter } from 'react-router-dom';
     
     ...
@@ -17,7 +17,7 @@ index.js
         <App>
     
     </BrowserRouter>, ...
-</pre>
+</code>
 
 App.js
 <pre>
