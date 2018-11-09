@@ -6,7 +6,6 @@
 
 ###Router, Link, NavLink(feat.activeclassName)
 index.js
-
 ```import { BrowserRouter } from 'react-router-dom';
     
     
@@ -20,7 +19,6 @@ index.js
 
 
 App.js
-
 ```import { Router, Link }  from 'react-router-dom';
 
    
@@ -43,7 +41,6 @@ App.js
 
 
 /Pages/About.js
-
 ```rsc
 
     ({match})
