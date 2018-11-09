@@ -1,10 +1,10 @@
 import React from 'react';
 
-const About = () => {
+const About = ({match}) => {
     return (
         <div>
             <h1>About</h1>
-            <p>리액트 라우터 소개</p>
+            <p>소개:{match.params.name}</p>
         </div>
     );
 };
