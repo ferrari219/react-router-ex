@@ -20,7 +20,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 App.js
 ```
-import { Router, Link }  from 'react-router-dom';
+import { Route, Link }  from 'react-router-dom';
 
 
    <Link to='/' exact>Home</Link>
@@ -33,9 +33,9 @@ import { Router, Link }  from 'react-router-dom';
    
    
    
-   <Router path='/' component={Home}/>
+   <Route path='/' component={Home}/>
    
-   <Router path='/about/:name' component={About}/>
+   <Route path='/about/:name' component={About}/>
 
 ```
 
