@@ -40,7 +40,7 @@ import { Route, Link }  from 'react-router-dom';
 ```
 
 
-/Pages/About.js
+/Pages/About.js (Parameter)
 ```
 rsc
 
@@ -51,3 +51,21 @@ rsc
     {match.params.name}
     
 ```
+
+/Pages/Query?name=ferrari219 (Query)
+```
+import React from 'react';
+import qs from 'qs';
+
+const Query = ({ location }) => {
+    const query = qs.parse(location.search.substr(1)); // .
+    // console.log(query.name);
+    return (
+        <div>
+            {query.name}
+        </div>
+    );
+};
+```
+
+export default Query;
